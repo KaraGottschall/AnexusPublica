@@ -30,7 +30,7 @@ Conteúdo editorial da plataforma Anexus — fora do repositório de código (`A
 
 ## Consumo no Anexus
 
-Este repositório é um **submodule** em `content/anexus-publica/` no monorepo Anexus.
+Este repositório é um **submodule** em `frontend/content/anexus-publica/` no monorepo Anexus.
 
 ```bash
 git clone --recurse-submodules https://github.com/KaraGottschall/Anexus.git
