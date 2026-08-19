@@ -5,6 +5,7 @@ summary: Encontrar um contrato específico na área interna deixou de depender d
 tags:
   - contratos
 ---
+
 ### O problema antigo
 
 Com o volume de contratos crescendo, a lista mostrava tudo de uma vez. Para achar um pedido pelo número do serviço, pelo nome do cliente ou pela data prevista, o operador precisava vasculhar manualmente — lento e propenso a erro em dias de pico.

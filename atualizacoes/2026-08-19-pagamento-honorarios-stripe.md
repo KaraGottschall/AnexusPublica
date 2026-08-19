@@ -6,6 +6,7 @@ tags:
   - pagamentos
   - contratos
 ---
+
 ### O problema antigo
 
 O fluxo de pagamento ainda não estava integrado de forma confiável à ativação do contrato. Referências a métodos antigos (como PIX) confundiam o operador sobre como concluir o pedido e liberar o portal.

@@ -6,6 +6,7 @@ tags:
   - validação
   - segurança
 ---
+
 ### O problema antigo
 
 Depois que um contrato ou relatório saía da plataforma, não havia forma pública de verificar se o arquivo foi alterado, reimpresso ou adulterado. A confiança dependia só do visual ou de contato com o escritório.

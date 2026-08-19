@@ -6,6 +6,7 @@ tags:
   - portal
   - contratos
 ---
+
 ### O problema antigo
 
 Enviar o contrato em PDF por e-mail expunha o documento a cópias fora da plataforma e dificultava saber se a pessoa certa tinha acessado. Antes da baixa, o PDF oficial ainda não existe — o convite precisava levar ao lugar certo sem confundir com documento final.
