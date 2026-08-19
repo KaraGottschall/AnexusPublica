@@ -25,7 +25,7 @@ Obrigatório no topo do arquivo:
 ---
 title: Novidades de agosto
 date: 2026-08-18
-summary: Cadastro em etapas, portal com progresso por tipo de serviço e ciclo de vida dos dados.
+summary: Cadastro guiado em etapas, filtros na lista e progresso no portal por tipo de serviço.
 tags:
   - contratos
   - portal
@@ -37,12 +37,58 @@ tags:
 |-------|-----|
 | `title` | Título na lista e na página do post |
 | `date` | ISO (`YYYY-MM-DD`); ordenação e rótulo “18 de agosto de 2026” |
-| `summary` | Uma ou duas frases no card da lista |
+| `summary` | Uma ou duas frases no card da lista — descreve o release, não lista de bullets |
 | `tags` | Opcional; chips na lista |
 
 O corpo abaixo do frontmatter é Markdown restrito: títulos `##` / `###`, parágrafos, listas, **negrito** e links. HTML cru é escapado.
 
 Links que começam com `/` ou `/referencia/` apontam para o Conhecer em `/conhecer/` (`conhecerUrl`). Não use `localhost` nem tokens de demo no texto.
+
+## Formato jornalístico (cards)
+
+Cada melhoria entregue vira um **card** — um bloco `##` com subseções fixas. Não agrupe várias entregas em um parágrafo resumido.
+
+```markdown
+## [Título da melhoria — verbo no presente]
+
+[Lead de 1–2 frases: o que mudou e para quem.]
+
+### O problema antigo
+
+[Como era antes — dor concreta do contratante, beneficiário ou operador.]
+
+### A solução
+
+[O que a Anexus passou a fazer — linguagem de produto, sem jargão de commit.]
+
+### O que muda
+
+- [Mudança observável 1]
+- [Mudança observável 2]
+
+### Saiba mais
+
+- [Link para Conhecer ou Aprender](/telas/contratos/lista)
+```
+
+Regras:
+
+- **Um card = uma melhoria** entregue (ex.: filtros da lista, validador público, recuperação de senha).
+- **“Em breve”** fica em card próprio ou seção final — só para itens já visíveis na plataforma (ex. Locação no cadastro).
+- O **summary** do frontmatter resume o release inteiro; cada card detalha uma entrega.
+- Traduzir commits de engenharia em benefício de produto (“busca no servidor” em vez de “server-side filtering”).
+
+Exemplo real no repositório: [`2026-08-18-lancamento-agosto.md`](https://github.com/KaraGottschall/AnexusPublica/blob/main/atualizacoes/2026-08-18-lancamento-agosto.md).
+
+## Imagens (fase 2)
+
+O renderer atual (`frontend/src/lib/markdown-content.ts`) ainda **não** suporta `![legenda](url)` no corpo nem campo `cover` no frontmatter. Quando o app for atualizado:
+
+- Screenshots WebP por card em `atualizacoes/_assets/` ou subpasta do post
+- CSS de card visual em `AtualizacaoDetailView.vue`
+- Campo opcional `cover` no frontmatter para imagem de destaque na lista
+
+Até lá, use só texto estruturado nos cards.
 
 ## Tom
 
@@ -56,10 +102,11 @@ Não copie páginas do Conhecer para o post: um parágrafo e um link bastam.
 
 ## Checklist de um release
 
-1. Criar o `.md` em `atualizacoes/` no **AnexusPublica** com frontmatter válido.
-2. Commit e push no AnexusPublica; atualizar o ponteiro do submodule no monorepo Anexus.
-3. Conferir a lista em `/atualizacoes` e o detalhe em `/atualizacoes/{slug}`.
-4. Se o item saiu de “previsto”, atualizar [Status de implementação](/referencia/status-implementacao).
+1. Mapear commits do Anexus para cards (só entregas visíveis ao usuário).
+2. Criar ou atualizar o `.md` em `atualizacoes/` no **AnexusPublica** com frontmatter e cards no formato jornalístico.
+3. Commit e push no AnexusPublica; atualizar o ponteiro do submodule no monorepo Anexus.
+4. Conferir a lista em `/atualizacoes` e o detalhe em `/atualizacoes/{slug}`.
+5. Se o item saiu de “previsto”, atualizar [Status de implementação](/referencia/status-implementacao).
 
 O componente `FeatureComingSoon` (Locação no cadastro) aponta para `/atualizacoes`.
 
