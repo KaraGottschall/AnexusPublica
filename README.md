@@ -15,14 +15,16 @@ Conteúdo editorial da plataforma Anexus — fora do repositório de código (`A
 
 ### Atualizações
 
-- Arquivo: `atualizacoes/YYYY-MM-DD-slug.md`
+- Arquivo: `atualizacoes/YYYY-MM-DD-slug.md` — **uma notícia por arquivo** (uma melhoria = um `.md`)
 - Frontmatter: `title`, `date`, `summary`, `tags` (opcional)
-- Formato: matéria jornalística — cada melhoria é um **card** (`##`) com subseções fixas:
+- Formato: matéria jornalística com subseções fixas no corpo:
+  - Lead (1–2 frases após o frontmatter)
   - `### O problema antigo`
   - `### A solução`
   - `### O que muda`
   - `### Saiba mais`
-- Um release pode agrupar vários cards; evite listas resumidas no estilo changelog
+- O `title` do frontmatter é o título na lista; não repita como `##` no corpo
+- Várias entregas no mesmo dia = vários arquivos com a mesma data e slugs diferentes
 - Imagens no corpo ou capa: fase 2 (requer mudanças no renderer do app Anexus)
 
 ### Aprender

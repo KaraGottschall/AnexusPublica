@@ -13,7 +13,9 @@ Público e tom: **produto**, o que mudou na experiência. Sem jargão de engenha
 
 Cada post é um arquivo em `atualizacoes/` no repositório **AnexusPublica** (clone em `C:/AnexusPublica` ou via submodule em `frontend/content/anexus-publica/atualizacoes/`).
 
-Convenção de nome: `YYYY-MM-DD-slug.md` — por exemplo, `2026-08-18-lancamento-agosto.md`. O **slug** da URL é a parte depois da data (`/atualizacoes/lancamento-agosto`).
+Convenção de nome: `YYYY-MM-DD-slug.md` — por exemplo, `2026-08-18-cadastro-contratos-em-etapas.md`. O **slug** da URL é o nome do arquivo sem `.md` (`/atualizacoes/2026-08-18-cadastro-contratos-em-etapas`).
+
+**Uma melhoria = um arquivo.** Não agrupe várias entregas no mesmo `.md`; publique cada notícia separadamente, mesmo quando compartilham a mesma data.
 
 O carregador (`frontend/src/lib/atualizacoes.ts`) lê todos os `.md` da pasta, ordena pela data (mais recente primeiro) e expõe lista e detalhe.
 
@@ -23,13 +25,11 @@ Obrigatório no topo do arquivo:
 
 ```yaml
 ---
-title: Novidades de agosto
+title: Cadastro de contratos em etapas
 date: 2026-08-18
-summary: Cadastro guiado em etapas, filtros na lista e progresso no portal por tipo de serviço.
+summary: Abrir ou editar um contrato na área interna agora segue um assistente claro, passo a passo.
 tags:
   - contratos
-  - portal
-  - privacidade
 ---
 ```
 
@@ -37,19 +37,25 @@ tags:
 |-------|-----|
 | `title` | Título na lista e na página do post |
 | `date` | ISO (`YYYY-MM-DD`); ordenação e rótulo “18 de agosto de 2026” |
-| `summary` | Uma ou duas frases no card da lista — descreve o release, não lista de bullets |
+| `summary` | Uma ou duas frases no card da lista — resume **esta** notícia, não um release inteiro |
 | `tags` | Opcional; chips na lista |
 
 O corpo abaixo do frontmatter é Markdown restrito: títulos `##` / `###`, parágrafos, listas, **negrito** e links. HTML cru é escapado.
 
 Links que começam com `/` ou `/referencia/` apontam para o Conhecer em `/conhecer/` (`conhecerUrl`). Não use `localhost` nem tokens de demo no texto.
 
-## Formato jornalístico (cards)
+## Formato jornalístico
 
-Cada melhoria entregue vira um **card** — um bloco `##` com subseções fixas. Não agrupe várias entregas em um parágrafo resumido.
+Cada melhoria entregue vira **uma notícia** — um arquivo `.md` com o título no frontmatter e subseções fixas no corpo.
 
 ```markdown
-## [Título da melhoria — verbo no presente]
+---
+title: Lista de contratos com filtros
+date: 2026-08-18
+summary: Encontrar um contrato específico na área interna deixou de depender de rolar a tabela inteira.
+tags:
+  - contratos
+---
 
 [Lead de 1–2 frases: o que mudou e para quem.]
 
@@ -73,12 +79,12 @@ Cada melhoria entregue vira um **card** — um bloco `##` com subseções fixas.
 
 Regras:
 
-- **Um card = uma melhoria** entregue (ex.: filtros da lista, validador público, recuperação de senha).
-- **“Em breve”** fica em card próprio ou seção final — só para itens já visíveis na plataforma (ex. Locação no cadastro).
-- O **summary** do frontmatter resume o release inteiro; cada card detalha uma entrega.
+- **Um arquivo = uma melhoria** (ex.: filtros da lista, validador público, recuperação de senha).
+- **“Em breve”** também é uma notícia própria — só para itens já visíveis na plataforma (ex. Locação no cadastro).
+- O **summary** descreve só aquela notícia; o **title** aparece na lista e no topo da página.
 - Traduzir commits de engenharia em benefício de produto (“busca no servidor” em vez de “server-side filtering”).
 
-Exemplo real no repositório: [`2026-08-18-lancamento-agosto.md`](https://github.com/KaraGottschall/AnexusPublica/blob/main/atualizacoes/2026-08-18-lancamento-agosto.md).
+Exemplo real: [`2026-08-18-cadastro-contratos-em-etapas.md`](https://github.com/KaraGottschall/AnexusPublica/blob/main/atualizacoes/2026-08-18-cadastro-contratos-em-etapas.md).
 
 ## Imagens (fase 2)
 
@@ -102,8 +108,8 @@ Não copie páginas do Conhecer para o post: um parágrafo e um link bastam.
 
 ## Checklist de um release
 
-1. Mapear commits do Anexus para cards (só entregas visíveis ao usuário).
-2. Criar ou atualizar o `.md` em `atualizacoes/` no **AnexusPublica** com frontmatter e cards no formato jornalístico.
+1. Mapear commits do Anexus para notícias (só entregas visíveis ao usuário).
+2. Criar **um** `.md` por melhoria em `atualizacoes/` no **AnexusPublica**, com frontmatter e corpo no formato jornalístico.
 3. Commit e push no AnexusPublica; atualizar o ponteiro do submodule no monorepo Anexus.
 4. Conferir a lista em `/atualizacoes` e o detalhe em `/atualizacoes/{slug}`.
 5. Se o item saiu de “previsto”, atualizar [Status de implementação](/referencia/status-implementacao).
