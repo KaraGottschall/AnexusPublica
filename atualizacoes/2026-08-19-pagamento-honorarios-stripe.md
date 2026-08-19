@@ -6,9 +6,6 @@ tags:
   - pagamentos
   - contratos
 ---
-
-A confirmação e o pagamento do contrato na área interna passam a usar cartão via Stripe.
-
 ### O problema antigo
 
 O fluxo de pagamento ainda não estava integrado de forma confiável à ativação do contrato. Referências a métodos antigos (como PIX) confundiam o operador sobre como concluir o pedido e liberar o portal.

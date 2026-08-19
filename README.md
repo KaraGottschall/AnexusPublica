@@ -17,8 +17,7 @@ Conteúdo editorial da plataforma Anexus — fora do repositório de código (`A
 
 - Arquivo: `atualizacoes/YYYY-MM-DD-slug.md` — **uma notícia por arquivo** (uma melhoria = um `.md`)
 - Frontmatter: `title`, `date`, `summary`, `tags` (opcional)
-- Formato: matéria jornalística com subseções fixas no corpo:
-  - Lead (1–2 frases após o frontmatter)
+- Formato: matéria jornalística com subseções fixas no corpo (sem parágrafo introdutório — o `summary` já aparece como subtítulo na página):
   - `### O problema antigo`
   - `### A solução`
   - `### O que muda`

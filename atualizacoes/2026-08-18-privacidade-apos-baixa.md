@@ -5,9 +5,6 @@ summary: Quando o serviço é encerrado, a plataforma cuida da entrega de docume
 tags:
   - privacidade
 ---
-
-Quando o serviço é encerrado, a plataforma cuida da entrega de documentos e do ciclo de vida dos dados pessoais.
-
 ### O problema antigo
 
 Após a baixa, o operador precisava montar manualmente o pacote de documentos e o relatório de tratamento para o titular. Não havia fluxo automático de entrega nem prazo definido para anonimização dos dados do caso.

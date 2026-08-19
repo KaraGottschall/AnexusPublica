@@ -5,9 +5,6 @@ summary: Depois da ativação, contratante e beneficiário acompanham etapas que
 tags:
   - portal
 ---
-
-Depois da ativação, contratante e beneficiário acompanham etapas que fazem sentido para aquele serviço — trânsito ou outro.
-
 ### O problema antigo
 
 O andamento do serviço não tinha representação clara no portal. Sem saber em que fase estava o caso, o beneficiário recorria a mensagens ou ligações para perguntar se a defesa já tinha sido anexada ou se o documento estava pronto.

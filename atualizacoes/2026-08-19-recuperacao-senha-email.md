@@ -5,9 +5,6 @@ summary: Quem esqueceu a senha consegue recuperar o acesso sem depender do supor
 tags:
   - segurança
 ---
-
-Quem esqueceu a senha consegue recuperar o acesso sem depender do suporte.
-
 ### O problema antigo
 
 Sem fluxo de redefinição, o operador bloqueado precisava pedir ajuda para recuperar a conta — atraso operacional e dependência de terceiros para algo que deveria ser self-service.

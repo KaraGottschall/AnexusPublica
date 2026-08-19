@@ -5,9 +5,6 @@ summary: O operador envia o link do portal ao beneficiário direto da área inte
 tags:
   - portal
 ---
-
-O operador envia o link do portal ao beneficiário direto da área interna, após a ativação.
-
 ### O problema antigo
 
 Depois de pagar e ativar, o operador não tinha um atalho claro para compartilhar o acesso com o beneficiário. Copiar tokens manualmente ou depender de fluxos antigos gerava atrito e atraso na comunicação com o titular.

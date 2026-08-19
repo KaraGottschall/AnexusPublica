@@ -5,9 +5,6 @@ summary: Abrir ou editar um contrato na área interna agora segue um assistente 
 tags:
   - contratos
 ---
-
-Abrir ou editar um contrato na área interna agora segue um assistente claro, passo a passo.
-
 ### O problema antigo
 
 O pedido reunia muitos campos de uma vez — partes, tipo de serviço, descrição, anexos e honorários — sem uma ordem evidente. Operadores novos tinham dúvida sobre o que preencher primeiro; erros de validação (documento inválido, beneficiário incompleto) só apareciam no fim.

@@ -57,8 +57,6 @@ tags:
   - contratos
 ---
 
-[Lead de 1–2 frases: o que mudou e para quem.]
-
 ### O problema antigo
 
 [Como era antes — dor concreta do contratante, beneficiário ou operador.]
@@ -81,7 +79,7 @@ Regras:
 
 - **Um arquivo = uma melhoria** (ex.: filtros da lista, validador público, recuperação de senha).
 - **“Em breve”** também é uma notícia própria — só para itens já visíveis na plataforma (ex. Locação no cadastro).
-- O **summary** descreve só aquela notícia; o **title** aparece na lista e no topo da página.
+- O **summary** aparece na lista e como subtítulo na página de detalhe — **não** repita no corpo do `.md`
 - Traduzir commits de engenharia em benefício de produto (“busca no servidor” em vez de “server-side filtering”).
 
 Exemplo real: [`2026-08-18-cadastro-contratos-em-etapas.md`](https://github.com/KaraGottschall/AnexusPublica/blob/main/atualizacoes/2026-08-18-cadastro-contratos-em-etapas.md).
