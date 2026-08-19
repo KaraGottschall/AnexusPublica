@@ -39,3 +39,17 @@ git submodule update --init --recursive
 ```
 
 Para publicar conteúdo: commit aqui, depois atualize o ponteiro do submodule no Anexus.
+
+## Pastas aninhadas
+
+Qualquer `.md` em subpastas é descoberto automaticamente (exceto `README.md` e arquivos `_rascunho.md`).
+
+| Seção | Exemplo de arquivo | URL |
+|-------|-------------------|-----|
+| `atualizacoes/` | `atualizacoes/2026/08/18-portal.md` | `/atualizacoes/2026/08/18-portal` |
+| `aprender/` | `aprender/conta/registrar.md` | `/aprender/conta/registrar` |
+| `conhecer/` | `conhecer/privacidade/lgpd.md` | `/conhecer/privacidade/lgpd` |
+
+**Conhecer:** páginas novas em subpastas renderizam sem alterar código Vue; adicione entrada na sidebar em `frontend/docs/.vitepress/config.ts` no monorepo Anexus para aparecer no menu.
+
+**Atualizações / Aprender:** frontmatter obrigatório igual aos arquivos na raiz da seção. O slug da URL é o caminho relativo sem `.md`.
