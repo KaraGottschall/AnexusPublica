@@ -5,13 +5,13 @@ description: Como criar posts da área pública /atualizacoes no aplicativo
 
 # Publicar atualizações
 
-A área pública **Atualizações** (`/atualizacoes`) é o changelog da plataforma para visitantes — landing, portal e prospects. Não exige login. O conteúdo vive em Markdown no frontend, separado das páginas VitePress em `frontend/docs/`.
+A área pública **Atualizações** (`/atualizacoes`) é o changelog da plataforma para visitantes — landing, portal e prospects. Não exige login. O conteúdo vive no repositório [AnexusPublica](https://github.com/KaraGottschall/AnexusPublica), submodule em `frontend/content/anexus-publica/`.
 
 Público e tom: **produto**, o que mudou na experiência. Sem jargão de engenharia. Regras de uso (Guia) e detalhes de implementação (Referência) continuam nestas docs.
 
 ## Onde criar o arquivo
 
-Cada post é um arquivo em `frontend/src/content/atualizacoes/`.
+Cada post é um arquivo em `atualizacoes/` no repositório **AnexusPublica** (clone em `C:/AnexusPublica` ou via submodule em `frontend/content/anexus-publica/atualizacoes/`).
 
 Convenção de nome: `YYYY-MM-DD-slug.md` — por exemplo, `2026-08-18-lancamento-agosto.md`. O **slug** da URL é a parte depois da data (`/atualizacoes/lancamento-agosto`).
 
@@ -56,10 +56,10 @@ Não copie páginas do Conhecer para o post: um parágrafo e um link bastam.
 
 ## Checklist de um release
 
-1. Criar o `.md` em `frontend/src/content/atualizacoes/` com frontmatter válido.
-2. Conferir a lista em `/atualizacoes` e o detalhe em `/atualizacoes/{slug}`.
-3. Se o item saiu de “previsto”, atualizar [Status de implementação](/referencia/status-implementacao).
-4. Releases grandes: o rodapé da landing já tem o link **Atualizações** — não é necessário novo ponto de entrada.
+1. Criar o `.md` em `atualizacoes/` no **AnexusPublica** com frontmatter válido.
+2. Commit e push no AnexusPublica; atualizar o ponteiro do submodule no monorepo Anexus.
+3. Conferir a lista em `/atualizacoes` e o detalhe em `/atualizacoes/{slug}`.
+4. Se o item saiu de “previsto”, atualizar [Status de implementação](/referencia/status-implementacao).
 
 O componente `FeatureComingSoon` (Locação no cadastro) aponta para `/atualizacoes`.
 

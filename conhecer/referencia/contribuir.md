@@ -5,11 +5,13 @@ description: Como editar e pré-visualizar o Conhecer (VitePress)
 
 # Contribuir
 
-O **Conhecer** fica em Markdown em `frontend/docs/`. O site é gerado com VitePress e publicado em `/conhecer/` no mesmo origin do aplicativo. Tutoriais práticos (**Aprender**) ficam em `frontend/src/content/aprender/` e são servidos pela SPA em `/aprender`.
+O conteúdo editorial vive no repositório [AnexusPublica](https://github.com/KaraGottschall/AnexusPublica) (submodule em `frontend/content/anexus-publica/`). O **Conhecer** é gerado com VitePress e publicado em `/conhecer/`. Tutoriais **Aprender** e posts de **Atualizações** são servidos pela SPA em `/aprender` e `/atualizacoes`.
+
+Para escrever conteúdo, abra o repositório AnexusPublica (clone em `C:/AnexusPublica` ou edite via `frontend/content/anexus-publica/` no monorepo).
 
 ## Scripts
 
-Na pasta `frontend/`:
+Na pasta `frontend/` do monorepo Anexus:
 
 ```bash
 pnpm install
@@ -27,14 +29,15 @@ Os previews de tela importam componentes de `frontend/src`. O VitePress libera e
 
 | Pasta / arquivo | Conteúdo |
 |-----------------|----------|
-| `frontend/docs/` | Conhecer — teoria e regras (usuário final) |
-| `frontend/docs/referencia/` | Conteúdo técnico e de contribuição |
-| `frontend/src/content/aprender/` | Tutoriais Aprender (passo a passo) |
+| `frontend/content/anexus-publica/conhecer/` | Conhecer — teoria e regras (Markdown) |
+| `frontend/content/anexus-publica/aprender/` | Tutoriais Aprender (passo a passo) |
+| `frontend/content/anexus-publica/atualizacoes/` | Posts públicos `/atualizacoes` |
+| `frontend/content/anexus-publica/artigos/` | Reservado para publicações futuras |
 | `frontend/docs/.vitepress/config.ts` | Título, nav, sidebar, `base` e busca local |
 | `frontend/docs/.vitepress/theme/` | Tema, diagramas e previews de tela |
 | `frontend/public/conhecer/` | HTML gerado pelo build (não versionar) |
 
-Páginas novas precisam de um arquivo `.md` **e** de uma entrada na sidebar em `.vitepress/config.ts` (e em `nav` se for seção de topo).
+Páginas novas do Conhecer precisam de um arquivo `.md` em `conhecer/` **e** de uma entrada na sidebar em `.vitepress/config.ts`.
 
 ## Convenções
 
@@ -48,6 +51,11 @@ Páginas novas precisam de um arquivo `.md` **e** de uma entrada na sidebar em `
 - **Referência**: fixtures, glossário, status de implementação e instruções de contribuição.
 
 Detalhes de diagramas e previews: skill `anexus-docs` no repositório, [Glossário de produto](/referencia/glossario-produto), [Fixtures do portal](/referencia/fixtures-portal) e [Fixtures de contratos](/referencia/fixtures-contratos).
+
+## Publicar conteúdo
+
+1. Commit e push no repositório **AnexusPublica**.
+2. No monorepo Anexus: `cd frontend/content/anexus-publica && git pull` e commit do ponteiro do submodule.
 
 ## Anotar na revisão (dev)
 
