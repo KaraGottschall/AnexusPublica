@@ -25,5 +25,5 @@ Após conferir as informações no assistente de cadastro, o operador paga os ho
 ### Saiba mais
 
 - [Como pagar honorários](/aprender/pagar-honorarios)
-- [Pedido e valores](/contratos/pedido)
-- [Assinatura e integridade](/contratos/assinatura)
+- [Pedido e valores](/dominios/contratos-pedido)
+- [Assinatura e integridade](/dominios/contratos-assinatura)

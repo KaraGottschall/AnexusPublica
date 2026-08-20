@@ -102,6 +102,6 @@ Para **trânsito**, o **AIT (auto de infração)** é **indispensável** para fe
 
 Com tipo de defesa, instância e AIT, o sistema apresenta o **honorário fechado** daquele serviço.
 
-Detalhes dos campos do pedido: [Pedido e valores](/contratos/pedido). Visão do tipo: [Trânsito](/tipos-de-servico/transito).
+Detalhes dos campos do pedido: [Pedido e valores](/dominios/contratos-pedido). Visão do tipo: [Trânsito](/tipos-de-servico/transito).
 
 [← Voltar a Precificação](/precificacao/)

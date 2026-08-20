@@ -17,7 +17,7 @@ Pode ser o próprio usuário autenticado ou o cliente dele. Em qualquer caso, o 
 
 ### Com beneficiário
 
-Quando há [Beneficiário](/atores/beneficiario) no serviço:
+Quando há [Beneficiário](atores-beneficiario) no serviço:
 
 - O operador declara, na conferência, ter autorização e consentimento (LGPD) do beneficiário em nome do contratante.
 - O contratante continua obrigado a repassar cópia do contrato ao beneficiário, quando a relação assim exigir.
@@ -33,7 +33,7 @@ O contratante é a **parte contratual**. Papéis no tratamento: [Papéis no trat
 ## Na área interna
 
 - O operador cadastra nome, documento e e-mail do contratante no pedido.
-- A conferência dos termos e o pagamento acontecem em `/app/contratos` — ver [Lista e operações](/telas/contratos/lista) e [Assinatura e integridade](/contratos/assinatura).
+- A conferência dos termos e o pagamento acontecem em `/app/contratos` — ver [Lista e operações](/telas/contratos/lista) e [Assinatura e integridade](contratos-assinatura).
 - O **documento oficial** para download e envio só fica disponível após a baixa.
 
 ## Ciclo no sistema
@@ -43,7 +43,7 @@ O contratante é a **parte contratual**. Papéis no tratamento: [Papéis no trat
 | Cadastro | O operador cadastra o contratante (cliente) pela área interna |
 | Contrato | O contratante é informado ao criar o contrato |
 | Conferência | O operador aceita os termos em nome do contratante |
-| Pagamento | Honorários na área interna; o contrato passa a ativo e o PDF é lacrado ([assinatura e integridade](/contratos/assinatura)) |
+| Pagamento | Honorários na área interna; o contrato passa a ativo e o PDF é lacrado ([assinatura e integridade](contratos-assinatura)) |
 | Após ativação | Se houver beneficiário com e-mail, o portal é compartilhado com ele |
 | Documento oficial | A **baixa** (operada pelo usuário autenticado) **libera** o PDF oficial |
 
@@ -52,4 +52,4 @@ O contratante é a **parte contratual**. Papéis no tratamento: [Papéis no trat
 - Com a **Anexus**: relação contratual — prestação do serviço pela plataforma e cobrança de honorários.
 - Com o **Beneficiário**: o contratante viabiliza o serviço em favor do beneficiário.
 
-[← Voltar aos Atores](/atores/)
+[← Voltar aos Atores](atores)

@@ -9,6 +9,13 @@ Esta seção é voltada ao **time Anexus** e a quem contribui com a documentaç�
 
 Em agosto de 2026 o conteúdo foi reorganizado: **Aprender** = como fazer; **Conhecer** = porquê e regras. Vocabulário e papéis LGPD para o time: [Glossário de produto](/referencia/glossario-produto).
 
+## Desenvolvedores vs Referência
+
+| Seção | Público | Conteúdo |
+|-------|---------|----------|
+| [Desenvolvedores](/desenvolvedores/) | Integradores, parceiros, ERP | API REST pública — auth, escopos, sandbox, endpoints |
+| **Referência** (esta seção) | Time Anexus, contribuidores | Engenharia interna, fixtures, status, parâmetros comerciais |
+
 ## Conteúdo disponível
 
 | Página | Para quê |
@@ -24,7 +31,7 @@ Em agosto de 2026 o conteúdo foi reorganizado: **Aprender** = como fazer; **Con
 
 ## Em breve
 
-Páginas de API REST (OpenAPI) e modelos de dados além da integridade documental.
+OpenAPI publicado em produção (especificação em [Desenvolvedores — Referência](/desenvolvedores/referencia/)).
 
 A arquitetura de lacre, compilação LaTeX e validação forense está documentada em [Engenharia](/referencia/engenharia/).
 

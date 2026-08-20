@@ -25,4 +25,4 @@ A página **Integridade documental** (`/validar`) recebe o PDF e analisa lacres,
 ### Saiba mais
 
 - [Validação forense](/referencia/engenharia/validacao-forense)
-- [Assinatura e integridade](/contratos/assinatura)
+- [Assinatura e integridade](/dominios/contratos-assinatura)

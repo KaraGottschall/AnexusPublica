@@ -25,5 +25,5 @@ Se a contratante quiser recorrer à etapa seguinte (por exemplo, de defesa prév
 
 - [Precificação](/precificacao/) — princípios e tipos de serviço
 - [Precificação de defesas de trânsito](/precificacao/transito) — fórmula e valores
-- [Pedido e valores](/contratos/pedido) — campos e AIT
+- [Pedido e valores](/dominios/contratos-pedido) — campos e AIT
 - [Tipos de serviço](/tipos-de-servico/)

@@ -5,7 +5,7 @@ description: KPIs, tabela com accordions e ações sobre contratos na área inte
 
 # Lista e operações
 
-Na **lista de contratos** da [área interna](/atores/anexus), o operador consulta indicadores, a tabela operacional e as ações de cada serviço.
+Na **lista de contratos** da [área interna](/dominios/atores-anexus), o operador consulta indicadores, a tabela operacional e as ações de cada serviço.
 
 O título da tela é **Contratos**, com o subtítulo *Indicadores, lista operacional e ações da área interna.* Após cada operação, uma faixa de confirmação aparece no topo por alguns segundos — por exemplo, *Contrato cadastrado.* ou *Contrato atualizado.* Cada linha tem o atalho **Abrir contrato**, que leva à página `/app/contratos/{id}`.
 
@@ -34,7 +34,7 @@ Os valores de faturamento referem-se apenas a contratos **ativos** (pagos) — r
 
 Abaixo dos KPIs, a seção **Contratos em andamento** lista os serviços, com o subtítulo *Lista operacional com detalhes e ações por linha.* Os contratos aparecem ordenados pelo **Nº do serviço**, do mais recente para o mais antigo. Se ainda não houver nenhum, a tabela mostra **Nenhum contrato cadastrado.** Com filtros ativos e nenhum resultado, a mensagem passa a **Nenhum contrato encontrado.**
 
-O botão **Cadastrar novo contrato** abre a janela de [pedido e valores](/contratos/pedido), agora com quatro passos (o último é **Conferir informações**). Cada linha é um **accordion**: o resumo fica visível na linha; ao expandir, o operador vê o detalhe do pedido e o [Beneficiário](/atores/beneficiario) quando já informado. **Abrir contrato** leva à página de detalhe.
+O botão **Cadastrar novo contrato** abre a janela de [pedido e valores](/dominios/contratos-pedido), agora com quatro passos (o último é **Conferir informações**). Cada linha é um **accordion**: o resumo fica visível na linha; ao expandir, o operador vê o detalhe do pedido e o [Beneficiário](/dominios/atores-beneficiario) quando já informado. **Abrir contrato** leva à página de detalhe.
 
 ## Filtros
 
@@ -76,7 +76,7 @@ O campo **Tipo de serviço** oferece **Trânsito**, **Outro** e **Locação**. C
 
 ### Passo 3 — Descrição do serviço
 
-Os campos mudam conforme o tipo escolhido. Regras de negócio do pedido — AIT no fechamento, cadastro parcial, formação do preço — estão em [Pedido e valores](/contratos/pedido).
+Os campos mudam conforme o tipo escolhido. Regras de negócio do pedido — AIT no fechamento, cadastro parcial, formação do preço — estão em [Pedido e valores](/dominios/contratos-pedido).
 
 | Campo | Quando aparece |
 |-------|----------------|
@@ -102,7 +102,7 @@ Formatos aceitos: PDF, PNG, JPEG ou WebP, com no máximo 10 MB. Os tipos dispon�
 
 Se o operador mudar o tipo de serviço, anexos incompatíveis saem da lista.
 
-Os anexos ficam **somente nesta janela** — a linha expandida da tabela não lista os arquivos. O [dossiê do serviço](/contratos/#dossie-do-servico) é o lugar em que as partes consultam os documentos depois.
+Os anexos ficam **somente nesta janela** — a linha expandida da tabela não lista os arquivos. O [dossiê do serviço](/dominios/contratos#dossie-do-servico) é o lugar em que as partes consultam os documentos depois.
 
 ### Quando a edição não está disponível
 
@@ -149,7 +149,7 @@ Em computador com mouse, o card aparece ao passar o ponteiro; em tela de toque, 
 | Coluna | Conteúdo |
 |--------|----------|
 | (expansão) | Seta para abrir ou recolher o accordion |
-| **Cliente** | [Contratante](/atores/contratante) vinculado ao serviço — nome abre o card |
+| **Cliente** | [Contratante](/dominios/atores-contratante) vinculado ao serviço — nome abre o card |
 | **Beneficiário** | Nome do titular, quando já cadastrado; em telas estreitas a coluna some e o dado reaparece no accordion |
 | **Data prevista** | Prazo acordado para protocolo ou entrega; em telas estreitas a coluna some e o dado reaparece no accordion |
 | **Status** | Badge da fase atual do contrato (ver abaixo) |
@@ -159,7 +159,7 @@ O **Nº do serviço** aparece no accordion e no card do cliente ou do beneficiá
 
 ## Status
 
-A coluna de status exibe um **badge** da fase atual — o mesmo mecanismo de transparência do [stepper](/contratos/progresso), para o operador ver (e as partes acompanharem no portal) em que ponto o serviço está. Em contrato **ativo**, o badge mostra a etapa do **tipo de serviço** daquele contrato (trânsito ou outro).
+A coluna de status exibe um **badge** da fase atual — o mesmo mecanismo de transparência do [stepper](/dominios/contratos-progresso), para o operador ver (e as partes acompanharem no portal) em que ponto o serviço está. Em contrato **ativo**, o badge mostra a etapa do **tipo de serviço** daquele contrato (trânsito ou outro).
 
 | Badge | Significado |
 |-------|-------------|
@@ -186,7 +186,7 @@ A coluna de ações reúne os botões disponíveis conforme o estado do contrato
 | Ação | Quando está disponível | O que faz |
 |------|------------------------|-----------|
 | **Abrir contrato** | Sempre | Vai para `/app/contratos/{id}` — anexos, pagamento, portal e LGPD |
-| **Editar** | Contrato ainda não lacrado e não encerrado | Abre a janela e altera o [pedido](/contratos/pedido) — tipo de serviço, prazo, anexos etc. |
+| **Editar** | Contrato ainda não lacrado e não encerrado | Abre a janela e altera o [pedido](/dominios/contratos-pedido) — tipo de serviço, prazo, anexos etc. |
 | **Dar baixa** | Contrato ativo | Pede confirmação (*Dar baixa no contrato?*), registra a entrega do serviço e **libera o PDF oficial** |
 | **Cancelar** | Qualquer estágio, exceto baixado ou cancelado | Pede confirmação (*Cancelar contrato?*) e encerra o contrato sem baixa de serviço |
 
@@ -194,18 +194,18 @@ Na página do contrato, o operador também **paga** rascunhos e **reenvia o port
 
 ## Assinatura Anexus no PDF
 
-Ao confirmar e pagar, o **operador pré-assina** o PDF; o lacre ocorre na ativação. Formato da linha de assinatura e dados registrados: [Assinatura e integridade](/contratos/assinatura#dados-usados-em-cada-etapa).
+Ao confirmar e pagar, o **operador pré-assina** o PDF; o lacre ocorre na ativação. Formato da linha de assinatura e dados registrados: [Assinatura e integridade](/dominios/contratos-assinatura#dados-usados-em-cada-etapa).
 
 ## Relação com outras telas
 
 | Tela / fluxo | Conexão |
 |--------------|---------|
-| [Pedido e valores](/contratos/pedido) | Formulário de cadastro e edição do contrato, incluindo anexos |
-| [Assinatura e integridade](/contratos/assinatura) | Pré-assinatura, aceite, lacre, prévia inválida e hash SHA-256 |
-| [Progresso e notificações](/contratos/progresso) | Badges de etapa e stepper dentro do detalhe do contrato |
+| [Pedido e valores](/dominios/contratos-pedido) | Formulário de cadastro e edição do contrato, incluindo anexos |
+| [Assinatura e integridade](/dominios/contratos-assinatura) | Pré-assinatura, aceite, lacre, prévia inválida e hash SHA-256 |
+| [Progresso e notificações](/dominios/contratos-progresso) | Badges de etapa e stepper dentro do detalhe do contrato |
 | [Portal](/telas/portal/) | Dossiê do beneficiário após a ativação |
 | [Tipos de serviço](/tipos-de-servico/) | Trânsito, outro e locação (em progresso) — campos e etapas |
-| [Dossiê](/contratos/#dossie-do-servico) | Upload e consulta de documentos do serviço |
+| [Dossiê](/dominios/contratos#dossie-do-servico) | Upload e consulta de documentos do serviço |
 
 Para demos e URLs locais, veja [Fixtures de contratos](/referencia/fixtures-contratos).
 

@@ -19,25 +19,34 @@ O front consome a API (`/api`) para autenticação, contratos, início, configur
 | Área | Item | Status | Notas |
 |------|------|--------|-------|
 | Documentação | Previews do Guia (contratos e portal) | preview/mock | Demos VitePress ainda usam fixtures locais; o app usa API — ver [Fixtures do portal](/referencia/fixtures-portal) e [Fixtures de contratos](/referencia/fixtures-contratos) |
-| Pedido e contrato | Cadastro, conferência e pagamento | previsto | Cadastro em 4 passos e pagamento interno existem; fase `documento_gerado` e sequência completa descrita em [Contratos](/contratos/) ainda não |
+| Pedido e contrato | Cadastro, conferência e pagamento | previsto | Cadastro em 4 passos e pagamento interno existem; fase `documento_gerado` e sequência completa descrita em [Contratos](/dominios/contratos) ainda não |
 | FAQ | Página pública `/faq` | previsto | Rascunho de perguntas no [Guia — FAQ](/faq); sem rota no app |
-| Notificações | E-mail e alertas por etapa | preview/mock | Outbox SQL + Graph OAuth quando configurado; fallback log-only em Development — [Progresso e notificações](/contratos/progresso) |
-| Multi-tenant | Contas de organização | previsto | Tenant e membership no backend; sem UI de cadastro ou gestão de organização |
-| Assinatura | ICP-Brasil | previsto | Aceite eletrônico interno disponível; ICP em progresso — [Assinatura e integridade](/contratos/assinatura) |
+| Assinatura | ICP-Brasil | previsto | Aceite eletrônico interno disponível; ICP em progresso — [Assinatura e integridade](/dominios/contratos-assinatura) |
 | Domínio | Renomeação `tipoDefesa` → `tipoServico` | previsto | Rótulo de cadastro **Tipo de serviço**; tipos no domínio/API ainda misturam os nomes — [Glossário](/referencia/glossario-produto) |
 | Tipo Locação | Pedido, pipeline e honorários | previsto | Opção no cadastro com `FeatureComingSoon`; `ServiceType.Rental` sem pipeline — [Tipos de serviço](/tipos-de-servico/) |
 | Integração contábil | Confirmar e pagar | previsto | Lançamento automático ao pagar, se o operador tiver cadastro contábil |
-| Portal | Prévia inválida no download | previsto | Antes da baixa, contrato com marca d'água e valores fictícios — [Assinatura](/contratos/assinatura#previa-invalida-e-documento-oficial) |
+| Portal | Prévia inválida no download | previsto | Antes da baixa, contrato com marca d'água e valores fictícios — [Assinatura](/dominios/contratos-assinatura#previa-invalida-e-documento-oficial) |
 | Portal / baixa | PDF oficial após baixa | previsto | Documento oficial só após encerramento do serviço (baixa) |
-| Área interna | Stripe Checkout (honorários) | entregue | Pagamento único em `/app/contratos/{id}` após a conferência dos termos; webhook confirma e ativa o contrato |
 | Notificações | E-mail de portal ao beneficiário | previsto | Após a ativação, envia **link** `/portal/c/{token}` se houver e-mail do beneficiário; PDF oficial só após a baixa; remetente depende de `Email:OAuth:From` |
-| LGPD | Relatório de tratamento pós-baixa | preview/mock | PDF via template LaTeX (`TreatmentReport`); requer TeX Live em Development; download na área interna |
-| LGPD | ZIP e relatório pós-baixa | preview/mock | ZIP e PDF enviados ao titular e ao controlador via outbox `SendEmail` (Graph ou log-only) |
-| LGPD | Pipeline de anonimização pós-entrega | preview/mock | Anonimização real no banco/arquivos; agendada via outbox `ScheduledAt` (`Outbox:AnonymizationRetentionDays`); e-mail ao controlador na execução |
-| LGPD | Encaminhamento ao controlador | preview/mock | Solicitação persiste + outbox SQL + Graph ou log-only; inbox em Configurações |
-| Referência | Página de API na documentação | previsto | OpenAPI em Development (`/openapi/v1.json`); referência publicada na docs ainda não |
+| Referência | OpenAPI em produção | previsto | Spec em Development (`/openapi/v1.json`); doc alvo em [Desenvolvedores](/desenvolvedores/) |
 
-Já entregue (não listado): filtros da lista de contratos (Nº, Cliente, Status, Data prevista); stepper e badges por tipo de serviço (trânsito e outro); cadastro em Dialog com assistente de 4 passos; página de detalhe do contrato; portal read-only do beneficiário; área pública `/atualizacoes` ([Publicar atualizações](/referencia/publicar-atualizacoes)).
+## API pública {#api-publica}
+
+Checklist derivado de [Desenvolvedores](/desenvolvedores/) — doc-alvo vs código.
+
+| Área | Item | Status | Notas |
+|------|------|--------|-------|
+| API pública | Entidade `ApiKey` (tenant, hash, prefix, escopos) | previsto | Chave por organização; par teste padrão (público/privado) no cadastro com todos os escopos v1 |
+| API pública | Middleware dual auth (JWT + `anx_test_` / `anx_live_`) | previsto | Mesmos handlers MediatR |
+| API pública | Policies por escopo (`contracts:read`, …) | previsto | Substituir `screens.*` só na API M2M |
+| API pública | Validação chave ↔ ambiente (test só sandbox, live só prod) | previsto | [Ambientes](/desenvolvedores/ambientes) |
+| API pública | UI <SettingsPath section="desenvolvedor" item="api-keys" /> (perfil verificado; live só Owner) | previsto | [Criar chave API](/desenvolvedores/criar-chave-api) |
+| API pública | Deploy sandbox separado (URL + DB isolado) | previsto | Stripe test, e-mail log-only |
+| API pública | Rate limit por chave de API | previsto | Hoje: rate limit em `/validar`, doc-review, password-reset |
+| API pública | Aliases GET/POST para endpoints `QUERY` | previsto | [Convenções](/desenvolvedores/convencoes) |
+| API pública | Endpoints contratos/precificação via chave | previsto | Endpoints **entregues** com JWT + `screens.contracts` |
+
+Já entregue (não listado): filtros da lista de contratos (Nº, Cliente, Status, Data prevista); stepper e badges por tipo de serviço (trânsito e outro); cadastro em Dialog com assistente de 4 passos; página de detalhe do contrato; portal read-only do beneficiário; área pública `/atualizacoes` ([Publicar atualizações](/referencia/publicar-atualizacoes)); multi-tenant (contas de organização); Stripe Checkout (honorários); e-mail e alertas por etapa; LGPD pós-baixa (relatório, ZIP, anonimização, encaminhamento ao controlador); documentação Desenvolvedores (política + referência).
 
 ## Próximo
 

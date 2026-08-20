@@ -30,7 +30,7 @@ O stepper do serviço, neste tipo, segue uma sequência equivalente à do trabal
 | Entregue | Arquivo no dossiê e, quando couber, protocolado |
 | Concluído | Serviço encerrado; dossiê atualizado |
 
-Quem opera marca o andamento na área interna; contratante e beneficiário veem a etapa no [Portal](/telas/portal/). Detalhes: [Progresso e notificações](/contratos/progresso).
+Quem opera marca o andamento na área interna; contratante e beneficiário veem a etapa no [Portal](/telas/portal/). Detalhes: [Progresso e notificações](/dominios/contratos-progresso).
 
 ## Relação com trânsito
 
@@ -39,8 +39,8 @@ Se o caso for infração de trânsito, use o tipo [Trânsito](/tipos-de-servico/
 ## Próximo
 
 - [Trânsito](/tipos-de-servico/transito)
-- [Pedido e valores](/contratos/pedido)
-- [Progresso e notificações](/contratos/progresso)
+- [Pedido e valores](/dominios/contratos-pedido)
+- [Progresso e notificações](/dominios/contratos-progresso)
 - [Tipos de serviço](/tipos-de-servico/)
 
 [← Voltar aos tipos de serviço](/tipos-de-servico/)

@@ -4,7 +4,7 @@ description: Revisar informações e aceitar os termos na área interna
 order: 7
 track: Contratos
 duration: 3 min
-conhecer: /contratos/assinatura
+conhecer: /dominios/contratos-assinatura
 ---
 
 

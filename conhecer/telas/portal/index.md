@@ -5,9 +5,9 @@ description: Área pública sem login para o beneficiário acompanhar etapas e d
 
 # Portal
 
-O **Portal** é a área pública da Anexus exclusiva do [Beneficiário](/atores/beneficiario): acompanhar **etapas** e baixar o **dossiê**. Não exige conta nem login. O acesso é pelo **link temporário** enviado por e-mail após a ativação do contrato.
+O **Portal** é a área pública da Anexus exclusiva do [Beneficiário](/dominios/atores-beneficiario): acompanhar **etapas** e baixar o **dossiê**. Não exige conta nem login. O acesso é pelo **link temporário** enviado por e-mail após a ativação do contrato.
 
-O [Contratante](/atores/contratante) **não** usa o portal. Pedido, conferência dos termos, pagamento e gestão ficam na [área interna](/telas/contratos/). A [Anexus](/atores/anexus) é a plataforma; o operador autenticado age ali.
+O [Contratante](/dominios/atores-contratante) **não** usa o portal. Pedido, conferência dos termos, pagamento e gestão ficam na [área interna](/telas/contratos/). A [Anexus](/dominios/atores-anexus) é a plataforma; o operador autenticado age ali.
 
 ## Endereços
 
@@ -19,7 +19,7 @@ O [Contratante](/atores/contratante) **não** usa o portal. Pedido, conferência
 
 ## Do pedido ao dossiê
 
-O operador cria o contrato, confere as informações e **confirma e paga** na área interna. O pagamento ativa e lacra o contrato. Se houver e-mail do beneficiário, a plataforma envia o link do portal. Fluxo: [Documentos e acesso](/telas/portal/documentos) e [Assinatura e integridade](/contratos/assinatura).
+O operador cria o contrato, confere as informações e **confirma e paga** na área interna. O pagamento ativa e lacra o contrato. Se houver e-mail do beneficiário, a plataforma envia o link do portal. Fluxo: [Documentos e acesso](/telas/portal/documentos) e [Assinatura e integridade](/dominios/contratos-assinatura).
 
 Contrato **sem beneficiário** (ou sem e-mail): não há portal. O operador gerencia tudo internamente.
 
@@ -36,7 +36,7 @@ Contrato **sem beneficiário** (ou sem e-mail): não há portal. O operador gere
 
 ## Etapas na tela
 
-O portal só abre para contrato **ativo**. O stepper mostra as etapas **daquele tipo de serviço**, a partir de **Trabalho iniciado**. Sequência completa: [Progresso e notificações](/contratos/progresso).
+O portal só abre para contrato **ativo**. O stepper mostra as etapas **daquele tipo de serviço**, a partir de **Trabalho iniciado**. Sequência completa: [Progresso e notificações](/dominios/contratos-progresso).
 
 ## Tokens e links seguros
 
@@ -51,7 +51,7 @@ Em todas as telas do portal há acesso a **Privacidade e LGPD** (`/portal/lgpd`)
 ## Próximo
 
 - [Início](/telas/portal/inicio) — colar link ou token
-- [Assinatura e integridade](/contratos/assinatura) — conferência interna, pagamento e lacre
+- [Assinatura e integridade](/dominios/contratos-assinatura) — conferência interna, pagamento e lacre
 - [Dossiê](/telas/portal/dossie) — documentos do contrato ativo
 - [Token inválido](/telas/portal/token-invalido)
 - [Privacidade (LGPD)](/telas/portal/lgpd)

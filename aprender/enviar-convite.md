@@ -4,7 +4,7 @@ description: Compartilhar o link temporário do dossiê
 order: 5
 track: Contratos
 duration: 2 min
-conhecer: /contratos/progresso
+conhecer: /dominios/contratos-progresso
 ---
 
 

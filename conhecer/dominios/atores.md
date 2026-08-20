@@ -13,13 +13,13 @@ O [tipo de serviço](/tipos-de-servico/) (trânsito, outro ou demais áreas) nã
 
 | Ator | Papel resumido | Assina no portal? | Paga? | Portal? |
 |------|----------------|:-----------------:|:-----:|:-------:|
-| [Contratante](/atores/contratante) | Quem contrata e em cujo nome o operador aceita e paga | Não | Honorários, via operador | Não |
-| [Anexus](/atores/anexus) | Plataforma (operadora); o **operador** age na área interna | Não | Não | Não (área interna) |
-| [Beneficiário](/atores/beneficiario) | Titular pontual do serviço (a quem o documento ou o caso se refere) | Não | Não | Sim (stepper e dossiê) |
+| [Contratante](atores-contratante) | Quem contrata e em cujo nome o operador aceita e paga | Não | Honorários, via operador | Não |
+| [Anexus](atores-anexus) | Plataforma (operadora); o **operador** age na área interna | Não | Não | Não (área interna) |
+| [Beneficiário](atores-beneficiario) | Titular pontual do serviço (a quem o documento ou o caso se refere) | Não | Não | Sim (stepper e dossiê) |
 
 O **operador** é o usuário autenticado na área interna — sempre **controlador** dos dados. A Anexus é a plataforma em que ele age, não uma pessoa que assina ou opera.
 
-O PDF do contrato é **pré-assinado pelo operador** na conferência do pedido. Fluxo completo: [Assinatura e integridade](/contratos/assinatura).
+O PDF do contrato é **pré-assinado pelo operador** na conferência do pedido. Fluxo completo: [Assinatura e integridade](contratos-assinatura).
 
 ## Como se relacionam
 
@@ -36,27 +36,16 @@ Os atores acima descrevem o **contrato**. O tratamento de dados pessoais tem pap
 | Quem | Papel contratual | Papel na LGPD |
 |------|------------------|---------------|
 | Usuário autenticado (operador) | Age na área interna: cria contratos, confirma termos, paga, atualiza etapas | **Controlador** |
-| [Anexus](/atores/anexus) | Plataforma: pedido, dossiê, portal e lacre | **Operadora** |
-| [Contratante](/atores/contratante) | Assina e paga | Parte contratual; titular dos próprios dados |
-| [Beneficiário](/atores/beneficiario) | Acompanha o serviço | **Titular** dos dados do caso |
+| [Anexus](atores-anexus) | Plataforma: pedido, dossiê, portal e lacre | **Operadora** |
+| [Contratante](atores-contratante) | Assina e paga | Parte contratual; titular dos próprios dados |
+| [Beneficiário](atores-beneficiario) | Acompanha o serviço | **Titular** dos dados do caso |
 
 O controlador **é** o cadastro autenticado na área interna — não um quarto papel. Detalhes: [Papéis no tratamento](/privacidade/papeis).
 
-## Conta e papéis
+## Conta e organização
 
-Ao se registrar, você informa e-mail, senha e CPF. Esse cadastro é a **conta de usuário**; a vinculação com um papel de ator acompanha o módulo de contratos. Quem está logado na área interna é o controlador daquele tratamento.
+Os atores acima são papéis **no contrato**. A **conta de usuário** e a **organização** (espaço de trabalho na área interna) são outra camada — ver [Organização](organizacao). Quem está logado na área interna é o controlador daquele tratamento.
 
 ## Documentos e acesso
 
-Para saber **como e quando** cada parte vê o contrato, o dossiê e as etapas, leia [Documentos e acesso](/telas/portal/documentos) e [Progresso e notificações](/contratos/progresso).
-
-## Próximo passo
-
-Leia cada papel em detalhe:
-
-- [Contratante](/atores/contratante)
-- [Anexus](/atores/anexus)
-- [Beneficiário](/atores/beneficiario)
-- [Plataforma](/plataforma)
-- [Contratos](/contratos/)
-- [Portal](/telas/portal/)
+Para saber **como e quando** cada parte vê o contrato, o dossiê e as etapas, leia [Documentos e acesso](/telas/portal/documentos) e [Progresso e notificações](contratos-progresso).

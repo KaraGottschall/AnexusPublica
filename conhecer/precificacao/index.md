@@ -29,4 +29,4 @@ Não importa se o pedido entrou pelo sistema, WhatsApp ou outro canal: o honorá
 
 ## Relação com o contrato
 
-Tipo de serviço, dados do pedido e fechamento do preço: [Pedido e valores](/contratos/pedido).
+Tipo de serviço, dados do pedido e fechamento do preço: [Pedido e valores](/dominios/contratos-pedido).

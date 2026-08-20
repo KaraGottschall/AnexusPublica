@@ -50,4 +50,4 @@ Rota de produto prevista (sem login): FAQ em `/faq`. Ver [Status de implementaç
 - [Precificação (Guia)](/precificacao/)
 - [O que o honorário cobre](/precificacao/escopo)
 - [Precificação de defesas de trânsito](/precificacao/transito)
-- [Pedido e valores](/contratos/pedido)
+- [Pedido e valores](/dominios/contratos-pedido)

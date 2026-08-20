@@ -5,13 +5,13 @@ description: Como e quando cada parte acessa o contrato e o dossiê
 
 # Documentos e acesso
 
-Esta página explica **o que** cada ator vê e **quando**, no [Portal](/telas/portal/) e na área interna. Complementa a visão dos [Atores](/atores/). O dossiê é a **fonte da verdade** documental do serviço — o que entra e o que sai do caso fica registrado ali.
+Esta página explica **o que** cada ator vê e **quando**, no [Portal](/telas/portal/) e na área interna. Complementa a visão dos [Atores](/dominios/atores). O dossiê é a **fonte da verdade** documental do serviço — o que entra e o que sai do caso fica registrado ali.
 
 ## Tipos de documento
 
 | Tipo | O que é | Quem produz |
 |------|---------|-------------|
-| **Contrato (PDF)** | Instrumento do acordo; pré-assinado pelo operador na conferência; lacrado com hash após o pagamento. Download e envio **oficial** só após a baixa — ver [Prévia inválida e documento oficial](/contratos/assinatura#previa-invalida-e-documento-oficial) | Sistema (a partir dos dados do contrato) |
+| **Contrato (PDF)** | Instrumento do acordo; pré-assinado pelo operador na conferência; lacrado com hash após o pagamento. Download e envio **oficial** só após a baixa — ver [Prévia inválida e documento oficial](/dominios/contratos-assinatura#previa-invalida-e-documento-oficial) | Sistema (a partir dos dados do contrato) |
 | **Documentos do dossiê** | Anexos do processo (identidade, autos, peças, comprovantes, etc.) | Operador (upload na área interna) |
 
 ## Matriz por parte
@@ -86,4 +86,4 @@ Resumo do que o portal “vê”:
 | Contrato **baixado** | Portal de contrato ativo deixa de abrir; PDF **oficial** na área interna e, quando aplicável, por e-mail |
 | Link inválido ou expirado | Tela genérica de não encontrado (sem detalhar o motivo) — ver [Token inválido](/telas/portal/token-invalido) |
 
-[← Voltar ao Portal](/telas/portal/) · [Dossiê](/telas/portal/dossie) · [Token inválido](/telas/portal/token-invalido) · [Atores](/atores/)
+[← Voltar ao Portal](/telas/portal/) · [Dossiê](/telas/portal/dossie) · [Token inválido](/telas/portal/token-invalido) · [Atores](/dominios/atores)

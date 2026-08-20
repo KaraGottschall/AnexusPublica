@@ -24,5 +24,5 @@ O stepper do portal passou a refletir as **etapas do tipo de serviço** contrata
 ### Saiba mais
 
 - [Portal](/telas/portal/)
-- [Progresso e notificações](/contratos/progresso)
+- [Progresso e notificações](/dominios/contratos-progresso)
 - [Como acompanhar etapas](/aprender/acompanhar-etapas)

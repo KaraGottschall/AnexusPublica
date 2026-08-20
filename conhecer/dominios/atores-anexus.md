@@ -16,7 +16,7 @@ A plataforma **não substitui** quem elabora o documento: organiza o pedido, gov
 | Área interna | Login, lista de contratos, cadastro e ações do operador |
 | Portal | Aceite da contratante e acompanhamento do beneficiário, sem conta |
 | Dossiê | Fonte da verdade documental do serviço |
-| Lacre e hash | Integridade do PDF após o aceite — [Assinatura e integridade](/contratos/assinatura). Download oficial às partes externas só após a baixa |
+| Lacre e hash | Integridade do PDF após o aceite — [Assinatura e integridade](contratos-assinatura). Download oficial às partes externas só após a baixa |
 
 ## O que o operador faz
 
@@ -39,7 +39,7 @@ A Anexus é **operadora** dos dados pessoais. Detalhes: [Papéis no tratamento �
 
 ## Assinatura digital
 
-Aceite eletrônico, pré-assinatura do operador, lacre e conferência do PDF: [Assinatura e integridade](/contratos/assinatura).
+Aceite eletrônico, pré-assinatura do operador, lacre e conferência do PDF: [Assinatura e integridade](contratos-assinatura).
 
 ## Canais oficiais
 
@@ -51,4 +51,4 @@ Quando disponíveis, o portal e o PDF podem exibir canais da plataforma (por exe
 - Com o **Beneficiário**: o serviço é prestado em favor do beneficiário; o andamento fica visível no portal.
 - Com o **usuário controlador**: a plataforma executa o tratamento e o fluxo operacional conforme as instruções de quem está logado.
 
-[← Voltar aos Atores](/atores/)
+[← Voltar aos Atores](atores)

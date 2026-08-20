@@ -5,7 +5,7 @@ description: Documentos do contrato ativo para o beneficiário
 
 # Dossiê
 
-Com o contrato **ativo** (pago e lacrado), o [beneficiário](/atores/beneficiario) vê o stepper do serviço e o dossiê — a fonte da verdade documental daquele caso. Não há aceite nem pagamento nesta tela.
+Com o contrato **ativo** (pago e lacrado), o [beneficiário](/dominios/atores-beneficiario) vê o stepper do serviço e o dossiê — a fonte da verdade documental daquele caso. Não há aceite nem pagamento nesta tela.
 
 ## Cabeçalho
 
@@ -21,7 +21,7 @@ O dossiê típico inclui o item **Contrato** e anexos do processo — por exempl
 
 <PortalDossierDemo />
 
-O item **Contrato** aparece na lista enquanto o contrato está ativo. **Antes da baixa**, **Baixar** entrega a [prévia inválida](/contratos/assinatura#previa-invalida-e-documento-oficial); **após a baixa**, o mesmo item entrega o **PDF oficial** lacrado. Conferência do hash: [Assinatura e integridade](/contratos/assinatura#conferir-a-integridade-do-contrato).
+O item **Contrato** aparece na lista enquanto o contrato está ativo. **Antes da baixa**, **Baixar** entrega a [prévia inválida](/dominios/contratos-assinatura#previa-invalida-e-documento-oficial); **após a baixa**, o mesmo item entrega o **PDF oficial** lacrado. Conferência do hash: [Assinatura e integridade](/dominios/contratos-assinatura#conferir-a-integridade-do-contrato).
 
 ## Preview do contrato ativo
 

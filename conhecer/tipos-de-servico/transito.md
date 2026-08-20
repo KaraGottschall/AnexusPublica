@@ -18,7 +18,7 @@ Campos típicos, além de cliente e prazo:
 | **Instância** | Defesa prévia, indicação de real condutor, JARI, CETRAN |
 | **AIT (auto de infração)** | Identifica a infração real (gravidade) |
 
-O **AIT é indispensável para fechar** o preço e avançar para documento e aceite. O pedido pode começar sem todos os anexos; o fechamento em trânsito exige o auto. Detalhes: [Pedido e valores](/contratos/pedido).
+O **AIT é indispensável para fechar** o preço e avançar para documento e aceite. O pedido pode começar sem todos os anexos; o fechamento em trânsito exige o auto. Detalhes: [Pedido e valores](/dominios/contratos-pedido).
 
 Anexos frequentes: AIT, CNH do condutor, CNH do real condutor, RENAVAM, comprovantes.
 
@@ -34,7 +34,7 @@ O stepper do serviço, no tipo trânsito, segue este pipeline (exemplo):
 | Aguardando julgamento | Em análise; pode haver data de consulta prevista |
 | Julgado | Resultado no dossiê |
 
-Visão geral do stepper (assinatura e serviço): [Progresso e notificações](/contratos/progresso).
+Visão geral do stepper (assinatura e serviço): [Progresso e notificações](/dominios/contratos-progresso).
 
 ## Honorários
 
@@ -45,7 +45,7 @@ O que está incluso no serviço (geração e entrega no dossiê, sem deslocament
 ## Próximo
 
 - [Outro](/tipos-de-servico/outro) — demais áreas
-- [Pedido e valores](/contratos/pedido)
+- [Pedido e valores](/dominios/contratos-pedido)
 - [Precificação — trânsito](/precificacao/transito)
 - [Tipos de serviço](/tipos-de-servico/)
 

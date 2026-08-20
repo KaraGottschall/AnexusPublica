@@ -24,6 +24,9 @@ Pilares (Guia): [Plataforma](/plataforma).
 | etapa do serviço | fase da defesa | badges na lista (rótulo do tipo) |
 | usuário controlador | profissional controlador | — |
 | operador | equipe Anexus / a Anexus (como pessoa) | — |
+| **organização** | tenant, workspace, empresa (genérico) | — |
+| **conta de usuário** | login, cadastro (sem distinguir org) | — |
+| **perfil na organização** | cargo, função LGPD | — |
 | serviço contratado / serviço documental | serviço de defesa | — |
 | honorários do serviço | honorários da defesa (quando genérico) | Honorários |
 | **prévia inválida** | PDF “oficial” baixado antes da baixa; rascunho sem marca d'água | — |
@@ -33,15 +36,17 @@ Pilares (Guia): [Plataforma](/plataforma).
 
 **Locação** está no catálogo da tela, mas o pedido ainda não é concluível — [Status de implementação](/referencia/status-implementacao).
 
-**Prévia inválida:** exportação do contrato **antes da baixa**; marca d'água; valores fictícios ou embaralhados; sem valor de instrumento oficial. **Documento oficial:** PDF lacrado após o pagamento no portal; download e envio externo **após a baixa** (encerramento do serviço). Detalhe no Guia: [Prévia inválida e documento oficial](/contratos/assinatura#previa-invalida-e-documento-oficial).
+**Prévia inválida:** exportação do contrato **antes da baixa**; marca d'água; valores fictícios ou embaralhados; sem valor de instrumento oficial. **Documento oficial:** PDF lacrado após o pagamento no portal; download e envio externo **após a baixa** (encerramento do serviço). Detalhe no Guia: [Prévia inválida e documento oficial](/dominios/contratos-assinatura#previa-invalida-e-documento-oficial).
 
 Advogado, despachante ou equivalente são **exemplos** de quem usa a conta — não um quarto papel LGPD.
+
+Detalhe no Guia: [Organização](/dominios/organizacao).
 
 ## Papéis LGPD
 
 | Papel | Quem |
 |-------|------|
-| **Controlador** | Usuário autenticado na área interna — sempre, no próprio tenant ou no de outro. Decide as finalidades do tratamento |
+| **Controlador** | Usuário autenticado na área interna — sempre, na própria organização ou na de outro. Decide as finalidades do tratamento |
 | **Operadora** | Anexus — a plataforma (entidade não física). Trata dados conforme as instruções do controlador. Nunca é controladora |
 | **Contratante** | Parte que assina e paga; pode coincidir com o usuário ou com o titular |
 | **Titular** | Beneficiário do serviço (quando identificado); o contratante também pode ser titular dos próprios dados |
@@ -60,7 +65,6 @@ Detalhe no Guia: [Como meus dados são usados](/privacidade/uso-dos-dados) e [Ci
 
 ## O que não documentar no Guia
 
-- Multi-tenant / contas de organização — só [Status de implementação](/referencia/status-implementacao)
 - Renomeação residual no código (`tipoDefesa` em partes do domínio; a UI já diz **Tipo de serviço**)
 - Promessas de features não existentes no produto (exceto menção **em progresso para implementação** em itens críticos, como assinatura ICP-Brasil e Locação)
 - Termos de implementação (SPA, mock, fixture, localhost) no prose do Guia
@@ -69,6 +73,7 @@ Detalhe no Guia: [Como meus dados são usados](/privacidade/uso-dos-dados) e [Ci
 ## Ver também
 
 - [Plataforma](/plataforma)
+- [Organização](/dominios/organizacao)
 - [Tipos de serviço](/tipos-de-servico/)
 - [Privacidade de Dados](/privacidade/)
 - [Status de implementação](/referencia/status-implementacao)

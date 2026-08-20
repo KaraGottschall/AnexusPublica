@@ -7,13 +7,13 @@ description: Titular do serviço que acompanha etapas e dossiê sem assinar o co
 
 O **Beneficiário** é o titular pontual do serviço — a pessoa a quem o documento ou o caso se refere. Exemplos: o condutor em uma defesa de trânsito, o cliente em cujo nome se protocola um requerimento, o titular de uma procuração. **Não é parte signatária** do contrato e **não responde** pelos honorários.
 
-No domínio jurídico, trata-se de estipulação em favor de terceiro: o [Contratante](/atores/contratante) contrata; o beneficiário é qualificado no documento, mas não assina.
+No domínio jurídico, trata-se de estipulação em favor de terceiro: o [Contratante](atores-contratante) contrata; o beneficiário é qualificado no documento, mas não assina.
 
 ## Transparência sem cobrar o profissional
 
 O valor do papel no portal é **acompanhar sozinho**: ver a etapa atual (documento elaborado, entregue, protocolado) e os arquivos do dossiê.
 
-Quem opera marca o andamento na área interna; o beneficiário vê o mesmo [stepper](/contratos/progresso) que a contratante, com as regras de privacidade do titular.
+Quem opera marca o andamento na área interna; o beneficiário vê o mesmo [stepper](contratos-progresso) que a contratante, com as regras de privacidade do titular.
 
 ## Dados no sistema
 
@@ -36,4 +36,4 @@ Detalhes: [Documentos e acesso](/telas/portal/documentos) e [Portal](/telas/port
 - Com o **Contratante**: o contratante autoriza e responde pelo consentimento (LGPD); o operador registra isso na conferência.
 - Com a **Anexus**: o operador presta o serviço pela plataforma em favor do beneficiário; o aceite dos termos e o pagamento ficam na área interna.
 
-[← Voltar aos Atores](/atores/)
+[← Voltar aos Atores](atores)

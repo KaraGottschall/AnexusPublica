@@ -5,7 +5,7 @@ description: Canais para exercer direitos de privacidade e LGPD na Anexus
 
 # Como solicitar
 
-Você pode pedir confirmação, acesso, correção, eliminação ou outros direitos relacionados aos seus dados pessoais pelos canais abaixo. Quem responde ao titular é o **controlador** — [Papéis no tratamento](/privacidade/papeis). A [contratante](/atores/contratante) declara autorização do beneficiário no aceite, quando houver titular distinto.
+Você pode pedir confirmação, acesso, correção, eliminação ou outros direitos relacionados aos seus dados pessoais pelos canais abaixo. Quem responde ao titular é o **controlador** — [Papéis no tratamento](/privacidade/papeis). A [contratante](/dominios/atores-contratante) declara autorização do beneficiário no aceite, quando houver titular distinto.
 
 ## Formulário no portal
 
@@ -29,7 +29,7 @@ Em regra, o prazo de resposta é de até **15 dias**, com prorrogação nos caso
 
 ## Configurações na área interna
 
-Na área autenticada, em **Configurações → Privacidade**, há o resumo de proteção de dados e o atalho **Entender melhor**, que abre esta seção da documentação.
+Na área autenticada, em <SettingsPath section="privacidade" />, há o resumo de proteção de dados e o atalho **Entender melhor**, que abre esta seção da documentação.
 
 ## Contato de privacidade
 

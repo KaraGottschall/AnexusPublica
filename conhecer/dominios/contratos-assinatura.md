@@ -9,9 +9,9 @@ Esta página explica **como o contrato é assinado** na Anexus, **quais dados** 
 
 ## O que é a assinatura na Anexus
 
-**Assinatura com certificado ICP-Brasil:** em progresso para implementação. Hoje, o contrato usa **aceite eletrônico interno**: o operador confirma os termos **em nome do [contratante](/atores/contratante)** na área interna, e o sistema registra esse ato (identidade do operador, data e hora).
+**Assinatura com certificado ICP-Brasil:** em progresso para implementação. Hoje, o contrato usa **aceite eletrônico interno**: o operador confirma os termos **em nome do [contratante](atores-contratante)** na área interna, e o sistema registra esse ato (identidade do operador, data e hora).
 
-O [beneficiário](/atores/beneficiario) **não assina** o contrato — acompanha as etapas e o dossiê no [Portal](/telas/portal/) depois da ativação, quando há e-mail e link.
+O [beneficiário](atores-beneficiario) **não assina** o contrato — acompanha as etapas e o dossiê no [Portal](/telas/portal/) depois da ativação, quando há e-mail e link.
 
 ## As três etapas
 
@@ -34,8 +34,8 @@ Do rascunho ao lacre, o instrumento passa por três momentos principais (as fase
 
 | Etapa | Quem | Dados registrados |
 |-------|------|-------------------|
-| **Pré-assinatura** | Operador (usuário autenticado) | Nome e documento de quem conferiu; conteúdo do contrato a partir do [pedido](/contratos/pedido) |
-| **Aceite** | Operador em nome do [contratante](/atores/contratante) | Confirmação explícita na tela, data e hora |
+| **Pré-assinatura** | Operador (usuário autenticado) | Nome e documento de quem conferiu; conteúdo do contrato a partir do [pedido](contratos-pedido) |
+| **Aceite** | Operador em nome do [contratante](atores-contratante) | Confirmação explícita na tela, data e hora |
 | **Lacre** | Plataforma | PDF final com a legenda da assinatura do operador; **hash SHA-256** do arquivo |
 
 Na linha de assinatura do PDF, o texto **abaixo** da linha de assinar segue este formato:
@@ -113,9 +113,9 @@ Use sempre a cópia oficial baixada do dossiê **após a baixa** (ou o PDF envia
 
 ## Próximo
 
-- [Progresso e notificações](/contratos/progresso) — stepper depois da ativação
+- [Progresso e notificações](contratos-progresso) — stepper depois da ativação
 - [Portal](/telas/portal/) — dossiê do beneficiário
 - [Dossiê](/telas/portal/dossie) — prévia inválida até a baixa; PDF oficial depois
 - [Lista e operações](/telas/contratos/lista) — conferência, pagamento e pré-assinatura na área interna
 
-[← Voltar a Contratos](/contratos/)
+[← Voltar a Contratos](contratos)

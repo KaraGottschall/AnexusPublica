@@ -7,7 +7,7 @@ description: Acesso, correção, eliminação e demais direitos previstos na LGP
 
 O titular dos dados pessoais pode, a qualquer momento e mediante requisição ao controlador, exercer os direitos previstos no [art. 18 da LGPD](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art18).
 
-Na Anexus, o [beneficiário](/atores/beneficiario) é o titular dos dados do serviço (quando houver beneficiário). Quem atende o pedido é o controlador — [Papéis no tratamento](/privacidade/papeis). Canais: [Como solicitar](/privacidade/solicitacoes).
+Na Anexus, o [beneficiário](/dominios/atores-beneficiario) é o titular dos dados do serviço (quando houver beneficiário). Quem atende o pedido é o controlador — [Papéis no tratamento](/privacidade/papeis). Canais: [Como solicitar](/privacidade/solicitacoes).
 
 ## O que o titular pode pedir
 
@@ -27,7 +27,7 @@ A lista completa está no [art. 18](https://www.planalto.gov.br/ccivil_03/_ato20
 
 Além dos pedidos formais, a plataforma favorece o **livre acesso** e a **transparência** no dia a dia:
 
-- O [stepper de progresso](/contratos/progresso) mostra as etapas do contrato e do serviço
+- O [stepper de progresso](/dominios/contratos-progresso) mostra as etapas do contrato e do serviço
 - O [dossiê](/telas/portal/dossie) reúne os documentos do serviço, conforme a fase e o papel de quem acessa
 
 Isso atende aos princípios da [transparência (art. 6º, VI)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art6) e do [livre acesso (art. 6º, IV)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art6), sem confundir o beneficiário com parte signatária do contrato.

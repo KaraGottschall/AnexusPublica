@@ -5,7 +5,7 @@ description: Arquitetura técnica do lacre, pipeline LaTeX, hasher por seções,
 
 # Engenharia — integridade documental
 
-Documentação técnica para o time Anexus. Descreve como a plataforma **gera**, **lacra** e **valida** PDFs oficiais — complementando a explicação de produto em [Assinatura e integridade](/contratos/assinatura).
+Documentação técnica para o time Anexus. Descreve como a plataforma **gera**, **lacra** e **valida** PDFs oficiais — complementando a explicação de produto em [Assinatura e integridade](/dominios/contratos-assinatura).
 
 O sistema opera em três fases:
 
@@ -53,4 +53,4 @@ Templates LaTeX ficam em assets dedicados do backend; a lógica de documentos re
 | Lacre do PDF | Root hash + hashes por seção |
 | Documento oficial | Emissão com XMP + hash binário do PDF |
 | Conferir integridade | Manual (SHA-256 do arquivo) ou validação via API |
-| Prévia inválida | PDF sem registro de emissão oficial — ver [Assinatura](/contratos/assinatura#previa-invalida-e-documento-oficial) |
+| Prévia inválida | PDF sem registro de emissão oficial — ver [Assinatura](/dominios/contratos-assinatura#previa-invalida-e-documento-oficial) |

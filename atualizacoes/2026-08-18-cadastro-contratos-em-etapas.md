@@ -23,5 +23,5 @@ A janela de cadastro virou um assistente em três passos: **identificação das 
 
 ### Saiba mais
 
-- [Pedido e valores](/contratos/pedido)
+- [Pedido e valores](/dominios/contratos-pedido)
 - [Como abrir um contrato](/aprender/abrir-contrato)

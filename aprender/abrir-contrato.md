@@ -6,7 +6,7 @@ track: Contratos
 duration: 3 min
 remotion: remotion-pedido
 remotionLabel: Cadastro de contrato na área interna
-conhecer: /contratos/pedido
+conhecer: /dominios/contratos-pedido
 ---
 
 

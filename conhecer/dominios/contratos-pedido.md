@@ -54,16 +54,4 @@ O operador complementa o que faltar pela área interna; ambas as partes acompanh
 
 ## Onde ficam os documentos
 
-Tudo que a contratante e o operador incluem ou alteram em relação ao contrato fica no [dossiê daquele serviço](/contratos/#dossie-do-servico). Detalhes de acesso: [Documentos e acesso](/telas/portal/documentos).
-
-## Próximo passo
-
-[Tipos de serviço](/tipos-de-servico/) — trânsito e demais áreas.
-
-[Precificação de defesas de trânsito](/precificacao/transito) — fórmula, valores base do CTB e exemplos.
-
-[O que o honorário cobre](/precificacao/escopo) — incluso e não incluso.
-
-[Progresso e notificações](/contratos/progresso) — stepper de etapas e avisos às partes.
-
-[← Voltar a Contratos](/contratos/)
+Tudo que a contratante e o operador incluem ou alteram em relação ao contrato fica no [dossiê daquele serviço](contratos#dossie-do-servico). Detalhes de acesso: [Documentos e acesso](/telas/portal/documentos).

@@ -22,7 +22,7 @@ Definições previstas no [art. 5º](https://www.planalto.gov.br/ccivil_03/_ato2
 | **Tratamento** | Toda operação com dados: coleta, armazenamento, uso, compartilhamento, eliminação etc. |
 | **Consentimento** | Manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento |
 
-Como esses papéis se aplicam ao usuário autenticado, à plataforma e aos [atores](/atores/) do contrato: [Papéis no tratamento](/privacidade/papeis).
+Como esses papéis se aplicam ao usuário autenticado, à plataforma e aos [atores](/dominios/atores) do contrato: [Papéis no tratamento](/privacidade/papeis).
 
 ## Princípios
 
@@ -48,7 +48,7 @@ Quando a base for o **consentimento** ([art. 8º](https://www.planalto.gov.br/cc
 - Deve referir-se a finalidades determinadas (autorizações genéricas são nulas)
 - Pode ser **revogado a qualquer momento**, de forma gratuita e facilitada ([art. 8º, § 5º](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art8))
 
-Na prática do contrato, a [contratante](/atores/contratante) declara ter autorização e consentimento do beneficiário quando há titular do serviço distinto. O **controlador** dos dados do caso é o **usuário autenticado** na área interna; a Anexus é **operadora**. Detalhes: [Papéis no tratamento](/privacidade/papeis).
+Na prática do contrato, a [contratante](/dominios/atores-contratante) declara ter autorização e consentimento do beneficiário quando há titular do serviço distinto. O **controlador** dos dados do caso é o **usuário autenticado** na área interna; a Anexus é **operadora**. Detalhes: [Papéis no tratamento](/privacidade/papeis).
 
 ## Próximo
 

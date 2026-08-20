@@ -6,7 +6,7 @@ track: Portal
 duration: 2 min
 remotion: remotion-stepper
 remotionLabel: Stepper de etapas no portal
-conhecer: /contratos/progresso
+conhecer: /dominios/contratos-progresso
 ---
 
 

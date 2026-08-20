@@ -18,4 +18,4 @@ Esta seção descreve as **telas principais** do produto — o que o operador v�
 | [Privacidade (LGPD)](/telas/portal/lgpd) | Público | Solicitação de dados pessoais |
 | [Documentos e acesso](/telas/portal/documentos) | Todas as partes | Matriz do que cada ator vê e quando |
 
-O domínio de contratos — pedido, valores, progresso e dossiê — está em [Contratos](/contratos/). Os papéis de cada parte estão em [Atores](/atores/). Os tipos (trânsito e demais) estão em [Tipos de serviço](/tipos-de-servico/).
+O domínio de contratos — pedido, valores, progresso e dossiê — está em [Contratos](/dominios/contratos). Os papéis de cada parte estão em [Atores](/dominios/atores). Os tipos (trânsito e demais) estão em [Tipos de serviço](/tipos-de-servico/).

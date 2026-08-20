@@ -13,11 +13,11 @@ No **topo da tela do contrato**, o operador (área interna) e o beneficiário (p
 
 Sem um lugar oficial de andamento, o cliente tende a perguntar de hora em hora se o caso andou — ou a esquecer e ser surpreendido depois. O stepper (e os avisos por etapa) concentram a resposta: **a etapa atual está aqui**, no mesmo portal em que já estão o contrato e o dossiê.
 
-Quem opera marca o marco na área interna; o [beneficiário](/atores/beneficiario) vê a mudança no portal, quando há link. O [contratante](/atores/contratante) não usa o portal.
+Quem opera marca o marco na área interna; o [beneficiário](atores-beneficiario) vê a mudança no portal, quando há link. O [contratante](atores-contratante) não usa o portal.
 
 ## Antes da ativação
 
-Enquanto o contrato está em **rascunho**, não há stepper no portal. O operador confere as informações e paga na área interna. Detalhes: [Assinatura e integridade](/contratos/assinatura) e [Documentos e acesso](/telas/portal/documentos).
+Enquanto o contrato está em **rascunho**, não há stepper no portal. O operador confere as informações e paga na área interna. Detalhes: [Assinatura e integridade](contratos-assinatura) e [Documentos e acesso](/telas/portal/documentos).
 
 ## Depois da ativação
 
@@ -46,4 +46,4 @@ Em **cada etapa relevante**, contratante e operador são **notificados** (por ex
 
 Quando o beneficiário tiver e-mail cadastrado, também pode receber avisos de marcos importantes, sempre dentro das regras de privacidade definidas pelo controlador. O aviso chega quando a etapa muda.
 
-[← Voltar a Contratos](/contratos/)
+[← Voltar a Contratos](contratos)

@@ -17,4 +17,4 @@ Veja a etapa atual e os documentos no portal. O contratante e o beneficiário ac
 
 ## Profissionais documentais
 
-Acompanhe etapas sem assinar nem pagar, quando o serviço for em nome de outra pessoa. Papéis e responsabilidades: [Atores](/atores/).
+Acompanhe etapas sem assinar nem pagar, quando o serviço for em nome de outra pessoa. Papéis e responsabilidades: [Atores](/dominios/atores).

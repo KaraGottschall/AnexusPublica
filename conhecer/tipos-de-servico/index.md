@@ -5,7 +5,7 @@ description: Como cada tipo de serviço define pedido, anexos, etapas e preço
 
 # Tipos de serviço
 
-Cada **tipo de serviço** descreve o que será prestado: quais campos entram no [pedido](/contratos/pedido), quais anexos o dossiê espera, quais [etapas](/contratos/progresso) o stepper mostra e como o honorário é formado.
+Cada **tipo de serviço** descreve o que será prestado: quais campos entram no [pedido](/dominios/contratos-pedido), quais anexos o dossiê espera, quais [etapas](/dominios/contratos-progresso) o stepper mostra e como o honorário é formado.
 
 Na tela de cadastro o campo se chama **Tipo de serviço**. Trânsito é o tipo mais detalhado hoje; **Outro** cobre as demais áreas documentais. **Locação** está em progresso para implementação.
 
@@ -34,7 +34,7 @@ O operador opera qualquer tipo disponível pela área interna. Contratante e ben
 
 - [Trânsito](/tipos-de-servico/transito)
 - [Outro](/tipos-de-servico/outro)
-- [Pedido e valores](/contratos/pedido)
+- [Pedido e valores](/dominios/contratos-pedido)
 - [Precificação](/precificacao/)
 - [Plataforma](/plataforma)
 

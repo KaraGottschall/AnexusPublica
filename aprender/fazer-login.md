@@ -6,7 +6,7 @@ track: Conta
 duration: 1 min
 remotion: remotion-login
 remotionLabel: Login na tela de autenticação
-conhecer: /atores/
+conhecer: /dominios/atores
 ---
 
 

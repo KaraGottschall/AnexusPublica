@@ -7,7 +7,7 @@ description: Endpoint POST /api/validar, três cenários de parecer (íntegro, n
 
 A plataforma expõe um endpoint público que recebe um PDF e retorna um **parecer técnico de integridade** — comparando o arquivo submetido com o registro canônico e, quando possível, com a emissão original.
 
-Complementa a conferência manual descrita em [Assinatura — Conferir integridade](/contratos/assinatura#conferir-a-integridade-do-contrato).
+Complementa a conferência manual descrita em [Assinatura — Conferir integridade](/dominios/contratos-assinatura#conferir-a-integridade-do-contrato).
 
 ## Três cenários de parecer
 
